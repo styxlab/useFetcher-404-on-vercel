@@ -1,6 +1,6 @@
-import { ActionFunctionArgs } from "@vercel/remix";
+export const config = { runtime: 'edge' }
 
-export const action = async ({ request }: ActionFunctionArgs) => {
+export const action = async () => {
     console.log('action triggered!')
     return new Response('Hello, world!', {
         headers: {

@@ -2,7 +2,7 @@ import { useFetcher } from "@remix-run/react";
 import type { MetaFunction } from "@vercel/remix";
 
 // NOTE: When you switdh to node runtime, the first link is working again, bu then the second link fails!
-// export const config = { runtime: 'edge' }
+export const config = { runtime: 'edge' }
 
 export const meta: MetaFunction = () => {
   return [
