@@ -1,4 +1,4 @@
-export const config = { runtime: 'edge' }
+//export const config = { runtime: 'edge' }
 
 export const action = async () => {
     console.log('action triggered!')

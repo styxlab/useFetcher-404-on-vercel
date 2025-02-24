@@ -38,7 +38,7 @@ export default function Index() {
             What&apos;s next?
           </p>
           <fetcher.Form method="post" action="/api/callback">
-              <button className="rounded bg-green-600 p-6">Click me!</button>
+              <button className="rounded bg-green-600 p-6 hover:bg-green-800 ">Click me!</button>
           </fetcher.Form>
         </nav>
       </div>
