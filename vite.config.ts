@@ -17,7 +17,7 @@ export default defineConfig({
         v3_fetcherPersist: true,
         v3_relativeSplatPath: true,
         v3_throwAbortReason: true,
-        v3_singleFetch: true,
+        v3_singleFetch: false,
         // issue with lazy route discovery on Vercel when navigating to a new route that lives in another runtime (e.g. edge -> node or node -> edge)
         v3_lazyRouteDiscovery: false,
       },
